@@ -1,0 +1,26 @@
+.btn {
+  position: relative;
+  font-family: $fontFamilyFraunces;
+  color: $veryDarkDesaturatedBlue;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.9rem;
+  z-index: 6;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: -5%;
+    background-color: $yellow;
+    width: 110%;
+    height: 8px;
+    border-radius: 1em;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  &-secondary:after {
+    background-color: $softRed;
+  }
+}

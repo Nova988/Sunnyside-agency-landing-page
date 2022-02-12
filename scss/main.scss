@@ -1,2 +1,55 @@
 @import "variables";
 @import "main-styles";
+@import "hamburgerMenu";
+@import "utilitys";
+
+// Header
+#main-header {
+  background: url("../images/mobile/image-header.jpg") no-repeat center
+    center/cover;
+  min-height: 65vh;
+}
+
+#navbar {
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  row-gap: 2rem;
+  padding-top: 4rem;
+}
+
+.grid__container {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+#transform-text {
+  grid-row: 2;
+}
+
+.box__text {
+  padding: 3rem 1rem;
+  text-align: center;
+
+  p {
+    color: $grayishBlue;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+  }
+}
+
+.box__image {
+  img {
+    width: 100%;
+  }
+}

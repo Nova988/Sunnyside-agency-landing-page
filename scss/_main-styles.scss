@@ -6,13 +6,13 @@
 
 html,
 body {
-  background: $softRed;
+  background: $white;
   font-size: $fontSize;
   font-family: $fontFamily;
   font-weight: 400;
   line-height: 1.2;
   height: 100vh;
-  color: #fff;
+  color: #000;
 }
 
 main {
@@ -23,8 +23,20 @@ main {
 }
 
 h1 {
-  font-weight: 300;
+  font-family: $fontFamilyFraunces;
+  font-weight: 900;
   font-size: 2rem;
+  color: $white;
+  letter-spacing: 3px;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-family: $fontFamilyFraunces;
+  font-weight: 900;
+  color: $veryDarkDesaturatedBlue;
+  width: 80%;
+  margin: auto;
   padding-bottom: 1rem;
 }
 
@@ -37,6 +49,11 @@ ul {
   color: $veryDarkDesaturatedBlue;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 // utilitys
 .container {
   color: $yellow;
@@ -47,7 +64,7 @@ ul {
   text-align: center;
 }
 
-.grid-container {
+.grid__container {
   display: grid;
 }
 
