@@ -1,0 +1,14 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "Sunnyside agency landing page frontendmentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --w scss/main.scss -o dist/css/ --recrutive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
