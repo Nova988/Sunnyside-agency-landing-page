@@ -33,12 +33,14 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+
+    <script defer src="./main.js"></script>
   </head>
   <body>
     <header id="main-header">
       <nav id="navbar">
-        <img src="./images/logo.svg" alt="" />
-        <div class="hamburger__menu">
+        <img src="./images/headerlogo.svg" alt="" />
+        <div id="hamburger_btn" class="hamburger__menu">
           <div class="hamburger__menu__line"></div>
         </div>
       </nav>
@@ -46,15 +48,17 @@
         <h1>We Are Creatives</h1>
         <img src="./images/icon-arrow-down.svg" alt="" />
       </div>
+      <div class="hamburger__menu__overlay hide">
+        <div class="hamburger__menu__overlay-container">
+          <ul class="hamburger-elements">
+            <li class="hamburger-el">About</li>
+            <li class="hamburger-el">Services</li>
+            <li class="hamburger-el">Projects</li>
+            <li class="hamburger-el">Contact</li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <div class="hamburger__menu__overlay">
-      <ul>
-        <li>About</li>
-        <li>Services</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
-    </div>
     <main>
       <div class="grid__container">
         <div id="transform-text" class="box__text">
