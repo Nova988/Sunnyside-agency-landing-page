@@ -1,0 +1,32 @@
+@media screen and (min-width: 600px) {
+  #main-header {
+    background-image: url("../images/desktop/image-header.jpg");
+  }
+  .hamburger__menu__overlay {
+    width: 90%;
+    top: 21%;
+  }
+
+  // footer
+  #main-footer > img {
+    max-width: 150px;
+  }
+
+  #footer-navigation ul {
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  // Testimonials
+  #testimonials {
+    .box {
+      padding: 0 6rem;
+
+      img {
+        max-width: 100px;
+      }
+    }
+  }
+}

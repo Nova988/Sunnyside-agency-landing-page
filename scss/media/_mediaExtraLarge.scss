@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) {
+  // Box text
+  h2 {
+    font-size: 2rem;
+  }
+  .box__text {
+    padding: 0 6em;
+  }
+
+  //   Graphic Design en Photography
+
+  .box__text-image-text {
+    padding: 0 6em;
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  //   Testimonials
+
+  #testimonials {
+    padding: 8rem 5rem;
+  }
+}
