@@ -111,6 +111,23 @@
     grid-column: 1/3;
     grid-template-columns: repeat(4, 1fr);
   }
+
+  // Footer
+  #footer-navigation {
+    ul li:hover {
+      color: $white;
+    }
+  }
+
+  #footer-socials {
+    img {
+      transition: $hoverTransition;
+    }
+    a:hover img {
+      filter: invert(100%) sepia(97%) saturate(0%) hue-rotate(251deg)
+        brightness(101%) contrast(103%);
+    }
+  }
 }
 
 @media screen and (min-width: 1000px) {
